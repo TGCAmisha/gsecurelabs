@@ -1,0 +1,13 @@
+# Build artifacts (only present in dev — never commit)
+__pycache__/
+*.py
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel local
+.vercel

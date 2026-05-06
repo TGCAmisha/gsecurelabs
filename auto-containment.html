@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto-Containment | G'Secure Labs</title>
+<meta name="description" content="Automated containment that isolates compromised hosts, disables compromised identities, and quarantines malicious files the moment a verified detection fires.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 70'%3E%3Cpath d='M30 0 L60 12 V36 C60 56 46 68 30 70 C14 68 0 56 0 36 V12 Z' fill='%23004a80'/%3E%3Cpath d='M30 0 V70 C46 68 60 56 60 36 V12 Z' fill='%23faa61a'/%3E%3Ccircle cx='30' cy='28' r='5' fill='%230a0c10'/%3E%3Crect x='28' y='30' width='4' height='14' fill='%230a0c10'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<body>
+<div class="top-bar">
+<div class="container">
+<div class="top-bar-left">
+<span class="top-bar-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+46 733 690899</span>
+<span class="top-bar-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>consult@gsecurelabs.com</span>
+<span class="top-bar-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Serving 30+ Countries</span>
+</div>
+<div class="top-bar-right">
+<a href="news-room.html">News Room</a>
+<span style="opacity:.4">|</span>
+<a href="https://thegatewaycorp.com/globaljobs/" target="_blank" rel="noopener">Careers</a>
+<span style="opacity:.4">|</span>
+<a href="javascript:void(0)">EN ▾</a>
+</div>
+</div>
+</div>
+<nav class="nav"><div class="container"><div class="nav-inner">
+<a href="index.html" class="logo">
+<svg class="logo-mark" viewBox="0 0 60 70" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs>
+<linearGradient id="lgBlue1" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0077d0"/><stop offset="1" stop-color="#004a80"/></linearGradient>
+<linearGradient id="lgOrg1" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ffc15b"/><stop offset="1" stop-color="#faa61a"/></linearGradient>
+</defs>
+<path d="M30 1 L58 12 V36 C58 55 45 66 30 68 C15 66 2 55 2 36 V12 Z" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M30 4 L55 14 V36 C55 53 43 63 30 65 V4 Z" fill="url(#lgOrg1)"/>
+<path d="M30 4 L5 14 V36 C5 53 17 63 30 65 V4 Z" fill="url(#lgBlue1)" opacity="0.0"/>
+<circle cx="30" cy="28" r="4.5" fill="#0a0c10"/>
+<rect x="28.2" y="30" width="3.6" height="13" fill="#0a0c10"/>
+</svg>
+<span class="logo-text">
+<span class="name">G'SECURE <span>LABS</span></span>
+<span class="tag">Cyber Security Consulting</span>
+</span>
+</a>
+<div class="nav-menu">
+<div class="nav-item"><a href="index.html" class="nav-link">Home</a>
+</div>
+<div class="nav-item has-mega"><a href="javascript:void(0)" class="nav-link active">Services<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+<div class="mega-menu" style="min-width: 760px;">
+<div class="mega-grid cols-3">
+<div class="mega-section-title">Cyber Security Services</div>
+<a href="mdr.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Managed Detection & Response</span>
+<span class="mega-link-desc">24×7 MDR across endpoint, network, cloud</span>
+</span>
+</a>
+<a href="soc.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Security Operation Center</span>
+<span class="mega-link-desc">AI-driven SOC with rapid triage</span>
+</span>
+</a>
+<a href="grc.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Governance, Risk & Compliance</span>
+<span class="mega-link-desc">Audit-ready GRC programs</span>
+</span>
+</a>
+<a href="vapt.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="6" width="8" height="14" rx="4"/><path d="M19 7l-3 2"/><path d="M5 7l3 2"/><path d="M19 13h-3"/><path d="M8 13H5"/><path d="M19 19l-3-2"/><path d="M5 19l3-2"/><path d="M9 6V4a3 3 0 0 1 6 0v2"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Vulnerability & Penetration Testing</span>
+<span class="mega-link-desc">Proactive testing & remediation</span>
+</span>
+</a>
+<a href="edr.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">End-Point Detection & Response</span>
+<span class="mega-link-desc">Zero-day endpoint protection</span>
+</span>
+</a>
+<a href="ndr.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="4" r="2"/><circle cx="20" cy="4" r="2"/><circle cx="4" cy="20" r="2"/><circle cx="20" cy="20" r="2"/><line x1="6" y1="6" x2="10" y2="10"/><line x1="18" y1="6" x2="14" y2="10"/><line x1="6" y1="18" x2="10" y2="14"/><line x1="18" y1="18" x2="14" y2="14"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Network Detection & Response</span>
+<span class="mega-link-desc">East-west / north-south traffic</span>
+</span>
+</a>
+<a href="ueba.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">User Entity Behavior Analysis</span>
+<span class="mega-link-desc">AI baseline of user behavior</span>
+</span>
+</a>
+<a href="threat-intelligence.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Threat Intelligence</span>
+<span class="mega-link-desc">Dark, deep & surface web intel</span>
+</span>
+</a>
+<a href="cyber-threat-hunting.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Cyber Threat Hunting</span>
+<span class="mega-link-desc">Proactive adversary hunting</span>
+</span>
+</a>
+<a href="cyber-security-monitoring.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Cyber Security Monitoring</span>
+<span class="mega-link-desc">24×7 vigilance & response</span>
+</span>
+</a>
+<a href="forensic-analysis.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Forensic Analysis</span>
+<span class="mega-link-desc">Trace evidence to root cause</span>
+</span>
+</a>
+<a href="auto-containment.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Auto-Containment & Control</span>
+<span class="mega-link-desc">Automated breach containment</span>
+</span>
+</a>
+</div></div>
+</div>
+<div class="nav-item"><a href="coe.html" class="nav-link">COE</a>
+</div>
+<div class="nav-item"><a href="essentials.html" class="nav-link">G'Secure Essentials</a>
+</div>
+<div class="nav-item has-mega"><a href="javascript:void(0)" class="nav-link">Resources<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+<div class="mega-menu" style="min-width: 480px;">
+<div class="mega-grid">
+<div class="mega-section-title">Resources</div>
+<a href="success-stories.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Success Stories</span>
+<span class="mega-link-desc">Customer wins & case studies</span>
+</span>
+</a>
+<a href="insights.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">Insights</span>
+<span class="mega-link-desc">Latest research & blogs</span>
+</span>
+</a>
+<a href="news-room.html" class="mega-link">
+<span class="mega-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6z"/></svg></span>
+<span class="mega-link-content">
+<span class="mega-link-title">News Room</span>
+<span class="mega-link-desc">Press, awards & announcements</span>
+</span>
+</a>
+</div></div>
+</div>
+<div class="nav-item"><a href="partners.html" class="nav-link">Partners</a>
+</div>
+<div class="nav-item"><a href="about.html" class="nav-link">About Us</a>
+</div>
+<div class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
+</div>
+</div>
+<div class="nav-cta">
+<a href="contact.html" class="btn btn-ghost">Talk to Expert</a>
+<a href="security-assessment.html" class="btn btn-primary">Start Now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+<button class="nav-toggle" id="navToggle" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+</div>
+</div></div></nav>
+<div class="mobile-nav" id="mobileNav">
+<div class="mobile-nav-header">
+<a href="index.html" class="logo">
+<svg class="logo-mark" viewBox="0 0 60 70" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs>
+<linearGradient id="lgBlue2" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0077d0"/><stop offset="1" stop-color="#004a80"/></linearGradient>
+<linearGradient id="lgOrg2" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ffc15b"/><stop offset="1" stop-color="#faa61a"/></linearGradient>
+</defs>
+<path d="M30 1 L58 12 V36 C58 55 45 66 30 68 C15 66 2 55 2 36 V12 Z" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M30 4 L55 14 V36 C55 53 43 63 30 65 V4 Z" fill="url(#lgOrg2)"/>
+<path d="M30 4 L5 14 V36 C5 53 17 63 30 65 V4 Z" fill="url(#lgBlue2)" opacity="0.0"/>
+<circle cx="30" cy="28" r="4.5" fill="#0a0c10"/>
+<rect x="28.2" y="30" width="3.6" height="13" fill="#0a0c10"/>
+</svg>
+<span class="logo-text">
+<span class="name">G'SECURE <span>LABS</span></span>
+<span class="tag">Cyber Security Consulting</span>
+</span>
+</a>
+<button class="nav-toggle" id="navClose" aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+</div>
+<ul class="mobile-nav-list">
+<li class="mobile-nav-item"><a href="index.html" class="mobile-nav-link">Home</a></li>
+<li class="mobile-nav-item"><div class="mobile-nav-link" data-toggle>Services <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></div>
+<div class="mobile-nav-sub">
+<a href="mdr.html">Managed Detection & Response</a>
+<a href="soc.html">Security Operation Center</a>
+<a href="grc.html">Governance, Risk & Compliance</a>
+<a href="vapt.html">Vulnerability Assessment & Pen Testing</a>
+<a href="edr.html">Endpoint Detection & Response</a>
+<a href="ndr.html">Network Detection & Response</a>
+<a href="ueba.html">UEBA</a>
+<a href="threat-intelligence.html">Threat Intelligence</a>
+<a href="cyber-threat-hunting.html">Cyber Threat Hunting</a>
+<a href="cyber-security-monitoring.html">Cyber Security Monitoring</a>
+<a href="forensic-analysis.html">Forensic Analysis</a>
+<a href="auto-containment.html">Auto-Containment & Control</a>
+<a href="events-logs.html">Events and Logs</a>
+</div></li>
+<li class="mobile-nav-item"><a href="coe.html" class="mobile-nav-link">COE</a></li>
+<li class="mobile-nav-item"><a href="essentials.html" class="mobile-nav-link">G'Secure Essentials</a></li>
+<li class="mobile-nav-item"><div class="mobile-nav-link" data-toggle>Resources <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></div>
+<div class="mobile-nav-sub">
+<a href="success-stories.html">Success Stories</a>
+<a href="insights.html">Insights</a>
+<a href="news-room.html">News Room</a>
+</div></li>
+<li class="mobile-nav-item"><a href="partners.html" class="mobile-nav-link">Partners</a></li>
+<li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About Us</a></li>
+<li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+</ul>
+<div style="margin-top: 32px; display:flex; flex-direction:column; gap:12px;">
+<a href="security-assessment.html" class="btn btn-primary" style="justify-content:center">Start Now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+<a href="contact.html" class="btn btn-ghost" style="justify-content:center">Talk to Expert</a>
+</div>
+</div>
+
+<main>
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <div class="ph-grid"></div>
+      <div class="ph-orb ph-orb-1"></div>
+      <div class="ph-orb ph-orb-2"></div>
+    </div>
+    <div class="container">
+      <nav class="breadcrumb reveal" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="bc-sep">/</span>
+        <a href="#">Services</a><span class="bc-sep">/</span>
+        <span class="bc-current">Auto-Containment</span>
+      </nav>
+      <span class="eyebrow reveal">Automated Containment</span>
+      <h1 class="page-hero-title reveal">Contain threats <span class="grad-text">in seconds, not hours</span></h1>
+      <p class="page-hero-lead reveal">Automated containment that isolates compromised hosts, disables compromised identities, and quarantines malicious files the moment a verified detection fires.</p>
+      <div class="page-hero-cta reveal">
+        <a href="contact.html" class="btn btn-primary">Talk to an expert <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        <button class="btn btn-ghost" data-modal-open="callModal">Get a callback</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO / OVERVIEW -->
+  <section class="section">
+    <div class="container">
+      <div class="two-col reveal">
+        <div class="two-col-text">
+          <span class="eyebrow">Overview</span>
+          <h2 class="section-title">Speed is the only thing attackers cannot beat</h2>
+          <p class="lead">Modern ransomware can encrypt an entire estate in under an hour. Manual response, no matter how skilled, cannot keep up. Auto-Containment closes the gap.</p>
+          <p class="muted"></p>
+        </div>
+        <div class="two-col-vis">
+          <div class="vis-card">
+            <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="iv1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#0077d0" stop-opacity="0.4"/>
+          <stop offset="100%" stop-color="#faa61a" stop-opacity="0.15"/>
+        </linearGradient>
+        <pattern id="ivgrid" width="20" height="20" patternUnits="userSpaceOnUse">
+          <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a1f29" stroke-width="1"/>
+        </pattern>
+      </defs>
+      <rect width="400" height="320" fill="url(#ivgrid)"/>
+      <circle cx="200" cy="160" r="100" fill="url(#iv1)" opacity="0.5"/>
+      <circle cx="200" cy="160" r="60" fill="none" stroke="#0077d0" stroke-width="2" opacity="0.6"/>
+      <circle cx="200" cy="160" r="100" fill="none" stroke="#faa61a" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.5"/>
+      <g transform="translate(200,160)">
+        <circle r="20" fill="#11141a" stroke="#faa61a" stroke-width="2"/>
+        <path d="M-8,-4 L-8,-2 a8,8 0 0,1 16,0 L8,-4 M-6,-4 L-6,4 L6,4 L6,-4 Z" fill="none" stroke="#faa61a" stroke-width="1.5"/>
+      </g>
+      <g fill="#0077d0">
+        <circle cx="100" cy="80" r="3"/><circle cx="320" cy="100" r="3"/>
+        <circle cx="80" cy="240" r="3"/><circle cx="330" cy="230" r="3"/>
+      </g>
+      <g stroke="#0077d0" stroke-width="1" fill="none" opacity="0.4">
+        <line x1="100" y1="80" x2="200" y2="160"/>
+        <line x1="320" y1="100" x2="200" y2="160"/>
+        <line x1="80" y1="240" x2="200" y2="160"/>
+        <line x1="330" y1="230" x2="200" y2="160"/>
+      </g>
+    </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES GRID -->
+  <section class="section section-tinted">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Capabilities</span>
+        <h2 class="section-title">Containment, automatically</h2>
+        <p class="section-sub"></p>
+      </div>
+      <div class="feat-grid">
+        <article class="feat-card reveal" style="--reveal-delay:0ms">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+          <h3 class="feat-title">Host Isolation</h3>
+          <p class="feat-text">EDR-driven network isolation of any compromised endpoint within seconds of confirmed detection.</p>
+        </article>
+        <article class="feat-card reveal" style="--reveal-delay:60ms">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3 class="feat-title">Identity Disable</h3>
+          <p class="feat-text">Compromised accounts auto-disabled in your IdP, with active sessions terminated.</p>
+        </article>
+        <article class="feat-card reveal" style="--reveal-delay:120ms">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <h3 class="feat-title">Email Recall</h3>
+          <p class="feat-text">Malicious emails auto-removed from every inbox they reached — sent, opened, or pending.</p>
+        </article>
+        <article class="feat-card reveal" style="--reveal-delay:180ms">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="4" r="2"/><circle cx="20" cy="4" r="2"/><circle cx="4" cy="20" r="2"/><circle cx="20" cy="20" r="2"/><line x1="6" y1="6" x2="10" y2="10"/><line x1="18" y1="6" x2="14" y2="10"/><line x1="6" y1="18" x2="10" y2="14"/><line x1="18" y1="18" x2="14" y2="14"/></svg></div>
+          <h3 class="feat-title">Network Block</h3>
+          <p class="feat-text">Firewall, NAC, and DNS auto-updated to block C2 and exfiltration channels in real time.</p>
+        </article>
+        <article class="feat-card reveal" style="--reveal-delay:240ms">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+          <h3 class="feat-title">Cloud Quarantine</h3>
+          <p class="feat-text">Compromised workloads, IAM keys, and storage objects auto-quarantined across AWS, Azure, GCP.</p>
+        </article>
+        <article class="feat-card reveal" style="--reveal-delay:300ms">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+          <h3 class="feat-title">Tunable Playbooks</h3>
+          <p class="feat-text">Every action is tunable — auto-execute, require approval, or notify only — per asset class.</p>
+        </article></div>
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  <!-- VALUES / BENEFITS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Why It Matters</span>
+        <h2 class="section-title">Outcomes</h2>
+      </div>
+      <ul class="vp-list">
+        <li class="vp-item reveal" style="--reveal-delay:0ms">
+          <span class="vp-num">01</span>
+          <div class="vp-body">
+            <h4>Containment in seconds</h4>
+            <p>From verified detection to complete isolation, the mean time is measured in seconds.</p>
+          </div>
+        </li>
+        <li class="vp-item reveal" style="--reveal-delay:50ms">
+          <span class="vp-num">02</span>
+          <div class="vp-body">
+            <h4>No 3am pager risk</h4>
+            <p>Out-of-hours incidents contain themselves while your team is mobilised — never the other way around.</p>
+          </div>
+        </li>
+        <li class="vp-item reveal" style="--reveal-delay:100ms">
+          <span class="vp-num">03</span>
+          <div class="vp-body">
+            <h4>Tuned to your risk appetite</h4>
+            <p>High-blast-radius actions can require human approval; low-impact actions execute autonomously.</p>
+          </div>
+        </li>
+        <li class="vp-item reveal" style="--reveal-delay:150ms">
+          <span class="vp-num">04</span>
+          <div class="vp-body">
+            <h4>Forensic-safe</h4>
+            <p>Containment preserves evidence — never destroys it.</p>
+          </div>
+        </li></ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <a href="javascript:void(0)" class="get-call" data-open-modal>
+<span class="dot"></span>
+Get a Call Back
+</a>
+</main>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a href="index.html" class="logo">
+<svg class="logo-mark" viewBox="0 0 60 70" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs>
+<linearGradient id="lgBlue3" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0077d0"/><stop offset="1" stop-color="#004a80"/></linearGradient>
+<linearGradient id="lgOrg3" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ffc15b"/><stop offset="1" stop-color="#faa61a"/></linearGradient>
+</defs>
+<path d="M30 1 L58 12 V36 C58 55 45 66 30 68 C15 66 2 55 2 36 V12 Z" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M30 4 L55 14 V36 C55 53 43 63 30 65 V4 Z" fill="url(#lgOrg3)"/>
+<path d="M30 4 L5 14 V36 C5 53 17 63 30 65 V4 Z" fill="url(#lgBlue3)" opacity="0.0"/>
+<circle cx="30" cy="28" r="4.5" fill="#0a0c10"/>
+<rect x="28.2" y="30" width="3.6" height="13" fill="#0a0c10"/>
+</svg>
+<span class="logo-text">
+<span class="name">G'SECURE <span>LABS</span></span>
+<span class="tag">Cyber Security Consulting</span>
+</span>
+</a>
+<p>G'Secure Labs delivers next-generation cyber security services to protect enterprises across 30+ countries. Backed by 27 years of experience and AI-driven technologies.</p>
+<div class="social-row">
+<a href="https://www.linkedin.com/company/gsecurelabs" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+<a href="https://twitter.com/gsecurelabs" class="social-link" aria-label="Twitter" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+<a href="https://www.youtube.com/channel/UCKgyGB4n0BvjlzBL6bRqozA" class="social-link" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+<a href="https://www.facebook.com/gsecurelabs/" class="social-link" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+</div>
+</div>
+<div>
+<h5>Services</h5>
+<ul>
+<li><a href="mdr.html">MDR Services</a></li>
+<li><a href="soc.html">Security Operation Center</a></li>
+<li><a href="grc.html">GRC</a></li>
+<li><a href="vapt.html">VAPT</a></li>
+<li><a href="edr.html">Endpoint Detection</a></li>
+<li><a href="ndr.html">Network Detection</a></li>
+<li><a href="threat-intelligence.html">Threat Intelligence</a></li>
+<li><a href="cyber-threat-hunting.html">Threat Hunting</a></li>
+<li><a href="forensic-analysis.html">Forensic Analysis</a></li>
+</ul>
+</div>
+<div>
+<h5>Company</h5>
+<ul>
+<li><a href="about.html">About Us</a></li>
+<li><a href="coe.html">COE</a></li>
+<li><a href="essentials.html">G'Secure Essentials</a></li>
+<li><a href="partners.html">Partners</a></li>
+<li><a href="success-stories.html">Success Stories</a></li>
+<li><a href="insights.html">Insights</a></li>
+<li><a href="news-room.html">News Room</a></li>
+<li><a href="https://thegatewaycorp.com/globaljobs/" target="_blank" rel="noopener">Careers</a></li>
+</ul>
+</div>
+<div>
+<h5>Get in Touch</h5>
+<ul>
+<li><a href="mailto:consult@gsecurelabs.com"><svg style="width:14px;height:14px;display:inline-block;vertical-align:middle;margin-right:8px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>consult@gsecurelabs.com</a></li>
+<li><a href="tel:+46733690899"><svg style="width:14px;height:14px;display:inline-block;vertical-align:middle;margin-right:8px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+46 733 690899</a></li>
+<li style="color:var(--gray-2); font-size:0.88rem; line-height:1.6; padding-top:6px;">Isafjordsgatan 30A,<br>16440 Kista, Sweden</li>
+<li><a href="contact.html" style="color:var(--orange); font-weight:700;">View All Offices →</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<div>© 2026 G'SECURE LABS — A Gateway Group Company. All Rights Reserved.</div>
+<div style="display:flex; gap:20px;">
+<a href="javascript:void(0)">Privacy Policy</a>
+<a href="javascript:void(0)">Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+<div class="modal-backdrop" id="modalCall" role="dialog" aria-modal="true">
+<div class="modal">
+<button class="modal-close" aria-label="Close">×</button>
+<div class="eyebrow" style="margin-bottom:14px">Talk to us</div>
+<h3>Talk to us about your Cyber Security Requirements</h3>
+<p>Our security experts will reach out within one business day to discuss your needs and outline next steps.</p>
+<form data-demo>
+<div class="form-grid">
+<div class="field"><label>First Name</label><input type="text" name="fname" required></div>
+<div class="field"><label>Last Name</label><input type="text" name="lname" required></div>
+<div class="field full"><label>Company Email</label><input type="email" name="email" required></div>
+<div class="field full"><label>Phone</label><input type="tel" name="phone"></div>
+<div class="field full"><label>How can we help?</label><textarea name="msg" placeholder="Tell us about your security challenge or project..."></textarea></div>
+<div class="field full" style="margin-top:8px">
+<button class="btn btn-primary" type="submit" style="width:100%; justify-content:center">Request Callback</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<a href="javascript:void(0)" class="get-call" data-open-modal>
+<span class="dot"></span>
+Get a Call Back
+</a>
+<div class="modal-backdrop" id="modalCall" role="dialog" aria-modal="true">
+<div class="modal">
+<button class="modal-close" aria-label="Close">×</button>
+<div class="eyebrow" style="margin-bottom:14px">Talk to us</div>
+<h3>Talk to us about your Cyber Security Requirements</h3>
+<p>Our security experts will reach out within one business day to discuss your needs and outline next steps.</p>
+<form data-demo>
+<div class="form-grid">
+<div class="field"><label>First Name</label><input type="text" name="fname" required></div>
+<div class="field"><label>Last Name</label><input type="text" name="lname" required></div>
+<div class="field full"><label>Company Email</label><input type="email" name="email" required></div>
+<div class="field full"><label>Phone</label><input type="tel" name="phone"></div>
+<div class="field full"><label>How can we help?</label><textarea name="msg" placeholder="Tell us about your security challenge or project..."></textarea></div>
+<div class="field full" style="margin-top:8px">
+<button class="btn btn-primary" type="submit" style="width:100%; justify-content:center">Request Callback</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
